@@ -1,7 +1,7 @@
 dependencies:
   override:
-   - sudo npm install frisby
-   - sudo npm install -g jasmine-node
+   - npm install frisby
+   - npm install -g jasmine-node
 
 test:
   override:
