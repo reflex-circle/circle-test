@@ -1,4 +1,8 @@
-$ cat circle.yml
+dependencies:
+  override:
+   - npm install frisby
+   - npm install -g jasmine-node
+
 test:
   override:
-    - echo Hello World
+   - echo Hello World
