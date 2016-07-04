@@ -1,4 +1,3 @@
-$ cat circle.yml
 test:
   override:
     - echo Hello World
