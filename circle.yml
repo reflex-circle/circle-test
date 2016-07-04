@@ -6,3 +6,4 @@ dependencies:
 test:
   override:
    - echo Hello World
+   - jasmine-node test_spec.js
