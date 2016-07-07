@@ -10,7 +10,7 @@ var instance = new Twit({
  access_token_secret: process.env.ACCESS_TOKEN_SECRET,
 });
 
-instance.post('statuses/destroy/:id', { id: '750957884133896193' }',
+instance.post('statuses/destroy/:id', { id: '750957884133896193' },
   function(err, data, response) {
    console.log(err);
    console.log(data);
