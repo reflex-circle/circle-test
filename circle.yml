@@ -7,8 +7,7 @@ dependencies:
    - npm install frisby
    - npm install -g jasmine-node
    - npm install ntwitter
-
+   - npm install date-utils
 test:
   override:
-   - echo Hello World
    - jasmine-node test_spec.js
