@@ -1,6 +1,6 @@
 var frisby = require("frisby");
 var twitter = require('ntwitter');
-console.log(process.env);
+console.log(process.env.CONSUMER_KEY);
 
 frisby.create("SAMPLE TEST").get(
     // リクエストするAPIパス
