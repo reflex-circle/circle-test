@@ -12,4 +12,4 @@ dependencies:
    - npm install date-utils
 test:
   override:
-   - jasmine-node test_spec.js
+   - jasmine-node tweet-destory.js
