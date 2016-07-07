@@ -1,4 +1,4 @@
-var frisby = require("frisby");
+//var frisby = require("frisby");
 var twitter = require("ntwitter");
 require('date-utils');
 
