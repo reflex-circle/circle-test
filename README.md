@@ -1,4 +1,4 @@
-https://circleci.com/gh/reflex-circle/circle-test.svg?style=shield&circle-token=fbadcabe515d1f7d0d54175159cfe12ebb5a01ab
+<img src="https://circleci.com/gh/reflex-circle/circle-test.svg?style=shield&circle-token=fbadcabe515d1f7d0d54175159cfe12ebb5a01ab">
 
 # WebAPIの自動テスト
 * CircleCI  - https://circleci.com/signup/  
