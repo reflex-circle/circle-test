@@ -1,5 +1,5 @@
-var frisby = require("frisby");
-var twitter = require("ntwitter");
+var frisby = require('frisby');
+var twitter = require('ntwitter');
 require('date-utils');
 
 var dt = new Date();
@@ -10,7 +10,7 @@ var instance = new twitter({
  access_token_secret: process.env.ACCESS_TOKEN_SECRET,
 });
 
-instance.post('https://api.twitter.com/1.1/statuses/destroy/750957884133896193.json',
+instance.post('statuses/destroy/750957884133896193.json',
   function(err, data) {
    console.log(err);
    console.log(data);
