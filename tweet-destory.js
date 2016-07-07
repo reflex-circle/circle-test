@@ -10,7 +10,7 @@ var t = new Twit({
  access_token_secret: process.env.ACCESS_TOKEN_SECRET,
 });
 
-T.post('statuses/update', { status: 'hello world!' }, function(err, data, response) {
+t.post('statuses/update', { status: 'hello world!' }, function(err, data, response) {
   console.log(data)
 });
 /*
