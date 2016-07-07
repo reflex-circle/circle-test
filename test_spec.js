@@ -12,6 +12,7 @@ var instance = new twitter({
 
 instance.updateStatus('Test By CircleCI ' + dt.toFormat('YYYY/MM/DD HH24:MI:SS'),
   function(err, data) {
+   console.log(err);
    console.log(data);
   }
 );
