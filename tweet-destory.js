@@ -1,4 +1,4 @@
-var frisby = require('frisby');
+//var frisby = require('frisby');
 var Twit = require('twit');
 require('date-utils');
 
