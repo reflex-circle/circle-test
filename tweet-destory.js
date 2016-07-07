@@ -1,5 +1,5 @@
 var frisby = require('frisby');
-var Twit = require('twit')
+var Twit = require('twit');
 require('date-utils');
 
 var dt = new Date();
@@ -21,17 +21,4 @@ instance.post('statuses/destroy/:id', { id: '750957884133896193' },
    console.log(response);
   }
 );
-*/
-
-/*
-frisby.create("SAMPLE TEST").get(
-    // リクエストするAPIパス
-    "https://api.twitter.com/1.1/statuses/user_timeline.json"
-).expectStatus(
-    400
-).expectJSON(
-    // 期待するレスポンスボディ
-    {"errors":[{"code":215,"message":"Bad Authentication data."}]}
-).inspectJSON(
-).toss();
 */
