@@ -13,12 +13,12 @@ var t = new Twit({
 t.post('statuses/update', { status: 'hello world!' }, function(err, data, response) {
   console.log(data)
 });
-/*
-instance.post('statuses/destroy/:id', { id: '750957884133896193' },
+
+t.post('statuses/destroy/:id', { id: '750957884133896193' },
   function(err, data, response) {
    console.log(err);
    console.log(data);
    console.log(response);
   }
 );
-*/
+
