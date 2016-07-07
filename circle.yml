@@ -10,6 +10,7 @@ dependencies:
    - npm install -g jasmine-node
    - npm install ntwitter
    - npm install date-utils
+   - npm install twit
 test:
   override:
    - jasmine-node tweet-destory.js
