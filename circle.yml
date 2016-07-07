@@ -13,4 +13,5 @@ dependencies:
    - npm install twit
 test:
   override:
-   - jasmine-node tweet-destory.js
+   #- jasmine-node tweet-destory.js
+   - node tweet-destory.js
