@@ -1,5 +1,5 @@
 var frisby = require("frisby");
-
+var twitter = require('ntwitter');
 console.log(process.env);
 
 frisby.create("SAMPLE TEST").get(
@@ -26,3 +26,18 @@ frisby.create("投稿").post(
     {"errors":[{"code":215,"message":"Bad Authentication data."}]}
 ).inspectJSON(
 ).toss();
+
+
+ 
+// 各種キーを入力し、インスタンス生成
+var instance = new twitter({
+ consumer_key: process.env.CONSUMER_KEY
+ consumer_secret: 'XXXXX',
+ access_token_key: 'XXXXX',
+ access_token_secret: 'XXXXX'
+});
+ 
+// 自分のタイムラインの内容を取得
+instance.get('/statuses/home_timeline.json', {include_entities:true}, function(data) {
+ console.log(data);
+});
