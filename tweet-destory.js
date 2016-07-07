@@ -1,19 +1,20 @@
 var frisby = require('frisby');
-var twitter = require('ntwitter');
+var Twit = require('twit')
 require('date-utils');
 
 var dt = new Date();
-var instance = new twitter({
+var instance = new Twit({
  consumer_key: process.env.CONSUMER_KEY,
  consumer_secret: process.env.CONSUMER_SECRET,
  access_token_key: process.env.ACCESS_TOKEN_KEY,
  access_token_secret: process.env.ACCESS_TOKEN_SECRET,
 });
 
-instance.post('statuses/destroy/750957884133896193.json',
-  function(err, data) {
+instance.post('statuses/destroy/:id', { id: '750957884133896193' }',
+  function(err, data, response) {
    console.log(err);
    console.log(data);
+   console.log(response);
   }
 );
 
