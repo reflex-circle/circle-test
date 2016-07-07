@@ -1,6 +1,6 @@
 # WebAPIの自動テスト
-* CircleCI  - https://circleci.com/signup/  
-  LoginID - reflex-circle
+CircleCI  - https://circleci.com/signup/  
+LoginID - reflex-circle
 
 # 環境
  * CircleCI     -> SassのCIサービス
@@ -10,14 +10,18 @@
  * ntwitter     -> TwitterでOAtuhするのを楽にする
  * twi          -> TwitterでOAtuhするのを楽にする
 
+# テスト対象
+ https://twitter.com/reflex_circle
+
 # テストスクリプト
  * tweet-update.js -> ツイートを投稿する
  * tweet-destory.js -> ツイートを削除する
 
 # テストが通ったか
 <img src="https://circleci.com/gh/reflex-circle/circle-test.svg?style=shield&circle-token=fbadcabe515d1f7d0d54175159cfe12ebb5a01ab">
+
 # Twitterのアクセストークンを取得
- * http://9-bb.com/twitter-apps/
+http://9-bb.com/twitter-apps/
 
 # 性能テスト、負荷テスト
 http://jmeter.apache.org/
