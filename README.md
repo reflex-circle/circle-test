@@ -22,14 +22,3 @@ LoginID - reflex-circle
 
 # Twitterのアクセストークンを取得
 http://9-bb.com/twitter-apps/
-
-# 性能テスト、負荷テスト
-http://jmeter.apache.org/
-
-# CircleCIの覚書
-
-#### reositoryごとに環境変数を設定したい
-BUILDS -> 歯車アイコン -> BUILD SETTINGS -> Environment Variables  
-アクセストークンやパスワードなどを隠したい場合に
-
-
