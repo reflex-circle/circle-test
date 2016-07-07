@@ -5,7 +5,7 @@ machine:
 dependencies:
   override:
    - npm install frisby
-   - npm install jasmine-node
+   - npm install -g jasmine-node
    - npm install ntwitter
 
 test:
