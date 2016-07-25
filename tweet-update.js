@@ -8,7 +8,7 @@ var instance = new twitter({
  consumer_secret: process.env.CONSUMER_SECRET,
  access_token_key: process.env.ACCESS_TOKEN_KEY,
  access_token_secret: process.env.ACCESS_TOKEN_SECRET,
-});
+}); 
 
 instance.updateStatus('Test By CircleCI ' + dt.toFormat('YYYY/MM/DD HH24:MI:SS'),
   function(err, data) {
